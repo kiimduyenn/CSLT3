@@ -1,0 +1,7 @@
+TienBanDau=int(input('So tien ban dau: '))
+SoThang=int(input('So thang gui: '))
+LaiSuat=float(input('Lai suat/ thang: '))
+print('Voi so tien ban dau',TienBanDau,end=",")
+print(' sau',SoThang,'thang gui,','lai suat',LaiSuat,end="")
+print('/ thang')
+print('Thi so tien nhan duoc cuoi ky la:',float(TienBanDau*(1+SoThang*LaiSuat)))
