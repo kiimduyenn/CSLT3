@@ -1,7 +1,7 @@
-a=int(input('a=')) #Nhập vào giá trị a
-b=int(input('b='))
-c=int(input('c='))
-d=int(input('d='))
+a=float(input('a=')) #Nhập vào giá trị a
+b=float(input('b='))
+c=float(input('c='))
+d=float(input('d='))
 Tong=a+b+c+d
-print('Tong=',float(Tong),sep="")
-print('Trung binh cong=',float(Tong/4),sep="")
+print('Tong=',Tong,sep="")
+print('Trung binh cong=',Tong/4,sep="")
